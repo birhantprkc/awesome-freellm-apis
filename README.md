@@ -1,6 +1,8 @@
 <p align="center">
   <h1 align="center">awesome-free-llm-apis</h1>
+  <!-- AUTO_STATS -->
   <p align="center"><strong>128+ free LLM APIs from 17 providers</strong> — find, compare & configure free models in seconds.</p>
+  <!-- END_AUTO_STATS -->
 </p>
 
 <p align="center">
@@ -85,6 +87,7 @@ print(response.choices[0].message.content)
 
 These providers offer a **permanently free tier** — no credit card required for most.
 
+<!-- BEGIN_PERMANENT_FREE -->
 | Provider | Free Models | Credit Card? | Max Context | Modalities | Get API Key |
 |---|---|---|---|---|---|
 | NVIDIA NIM | 17 | Phone verification | 1,048,576 | text, image | [→](https://build.nvidia.com/settings/api-keys) |
@@ -103,6 +106,7 @@ These providers offer a **permanently free tier** — no credit card required fo
 | Z AI (Zhipu) | 3 | No | 200,000 | text | [→](https://open.bigmodel.cn/usercenter/apikeys) |
 | ModelScope | 3 | Registration | 131,072 | text | [→](https://modelscope.cn/my/myaccesstoken) |
 | Google AI Studio | 2 | No | 1,000,000 | text, image, audio | [→](https://aistudio.google.com/app/apikey) |
+<!-- END_PERMANENT_FREE -->
 
 ### 💰 Renewable Credits
 
@@ -110,7 +114,9 @@ Providers that periodically renew free credits.
 
 | Provider | Free Models | Credit Model | Max Context | Modalities | Get API Key |
 |---|---|---|---|---|---|
+<!-- BEGIN_RENEWABLE -->
 | OpenRouter | 29 | Free tier + $10 topup → 1K RPD | 1,048,756 | text, image, code, reasoning, embeddings, audio | [→](https://openrouter.ai/workspaces/default/keys) |
+<!-- END_RENEWABLE -->
 
 ### 🖥️ Local / Self-Hosted (Unlimited, Private, Free Forever)
 
@@ -131,6 +137,7 @@ Data from freellm.net, updated daily via API monitoring.
 
 | Model | Provider | Context | Weekly Usage |
 |---|---|---|---|
+<!-- BEGIN_TOP_MODELS -->
 | NVIDIA Nemotron 3 Super | OpenRouter | 262K | 585B tokens |
 | Owl Alpha | OpenRouter | 1M | 375B tokens |
 | Poolside Laguna M.1 | OpenRouter | 131K | 208B tokens |
@@ -141,6 +148,7 @@ Data from freellm.net, updated daily via API monitoring.
 | NVIDIA Nemotron Nano 30B | OpenRouter | 256K | 41B tokens |
 | OpenAI gpt-oss-20b | OpenRouter | 131K | 32B tokens |
 | Poolside Laguna XS.2 | OpenRouter | 131K | 31B tokens |
+<!-- END_TOP_MODELS -->
 
 ---
 
@@ -192,5 +200,5 @@ MIT © [open-free-llm-api](https://github.com/open-free-llm-api)
 ---
 
 <p align="center">
-  <sub>Data refreshed daily via automated monitoring. Last updated: 2026-05-10.</sub>
+  <sub>Data refreshed daily via automated monitoring. <!-- AUTO_LAST_UPDATED -->Last updated: 2026-05-10<!-- END_AUTO_LAST_UPDATED -->.</sub>
 </p>
